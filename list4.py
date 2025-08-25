@@ -1,7 +1,8 @@
 # obter o menor valor presente no vetor e exibir em tela
 
 num = [34,6,11,19,52,71,86,90]
-num < num
+menor = num[0]
 for x in num:
-    if x == num:
+    if x < menor:
+        menor = x
         print(x)
